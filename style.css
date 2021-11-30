@@ -1,0 +1,118 @@
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.upperHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.left-logo img {
+    width: 120px;
+    padding-left: 60px;
+}
+
+.right-links ul {
+    display: flex;
+    gap: 40px;
+    padding-right: 60px;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    font-family: "Hero Secondary Text";
+    font-size: 18px;
+    color: white;
+    text-decoration: none; 
+
+}
+
+.lowerHeader {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    gap: 40px;
+    align-items: center;
+}
+
+.headline {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+
+.description {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+.header button {
+    color: white;
+    background-color: #3882f6;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 15%;
+}
+
+.profilePic img {
+    width: 250px;
+    border-radius: 8%;
+    
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.daily-life {
+    display: flex;
+    gap: 40px;
+}
+
+.daily-life img {
+    height: 200px;
+    width: 200px;
+    border-radius: 8%;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    gap: 20px;
+}
+
+.signature {
+    font-weight: bolder;
+}
+
+
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 40px 200px;
+    padding: 50px;
+}
+
