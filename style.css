@@ -18,6 +18,11 @@
     display: flex;
     gap: 40px;
     padding-right: 60px;
+    transition-duration: 0.5s;
+}
+
+.right-links ul :hover {
+    color:rgb(255, 197, 122);
 }
 
 li {
@@ -47,19 +52,25 @@ a {
 
 }
 
-
 .description {
     font-size: 18px;
     color: #E5E7Eb;
 }
+
 .header button {
     color: white;
-    background-color: #3882f6;
+    background-color: #02f5bd;
     font-weight: 900;
     padding: 10px 20px;
-    border-radius: 15%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
 }
 
+.header button:hover {
+    background-color: red;
+}
 .profilePic img {
     width: 250px;
     border-radius: 8%;
@@ -86,9 +97,10 @@ a {
 }
 
 .daily-life img {
-    height: 200px;
+    height: 240px;
     width: 200px;
     border-radius: 8%;
+    border: 5px solid #555;
 }
 
 
@@ -98,7 +110,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 200px;
+    padding: 150px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -112,7 +124,37 @@ a {
 
 .sign-up {
     background-color: #3882F6 ;
-    margin: 40px 200px;
-    padding: 50px;
+    border: 5px solid #555;
+    border-radius: 25px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 60px 600px; 
 }
 
+.signup-text {
+    color: white;
+    flex: 1;
+    font-size: 20px;
+}
+
+.signup-button {
+    color: white;
+    background-color: #02f5bd;
+    height: 40px;
+    padding: 2px 2px;
+    border-radius: 9px;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.signup-button:hover {
+    background-color: red;
+}
+.footer {
+    background-color: #E5E7EB;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
