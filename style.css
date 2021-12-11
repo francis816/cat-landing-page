@@ -1,53 +1,67 @@
 body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+
     display: flex;
     flex-direction: column;
-    margin: 0;
-}
-.header {
-    background-color: #1F2937;
+    flex-grow: 1;
     color: white;
-    padding: 20px;
-    margin: 0;
+
+}
+@media (max-width: 700px) {
+    .page {
+        zoom: 50%;
+    }
 }
 
-.upperHeader{
+.navbar{
+
+    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    color: white;
 }
 .left-logo img {
-    width: 120px;
-    padding-left: 60px;
+    width: 100px;
+    margin-left: 50px;
+
 }
 
-.right-links ul {
+.right-links {
     display: flex;
-    gap: 40px;
-    padding-right: 60px;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 20px;
     transition-duration: 0.5s;
 }
 
-.right-links ul :hover {
+.right-links :hover {
     color:rgb(255, 197, 122);
 }
 
-li {
-    list-style-type: none;
-
+.right-links a {
+    padding: 16px;
 }
+
 
 a {
     font-family: "Hero Secondary Text";
-    font-size: 18px;
+    font-size: 122%;
     color: white;
     text-decoration: none; 
 
 }
 
 .lowerHeader {
+
+    background-color: #1F2937;
+    color: white;
     display: flex;
     justify-content: center;
-    padding: 90px;
-    gap: 40px;
+    padding: 2%;
+    gap: 5%;
     align-items: center;
 }
 
@@ -62,7 +76,7 @@ a {
     color: #E5E7Eb;
 }
 
-.header button {
+.lowerHeader button {
     color: white;
     background-color: #02f5bd;
     font-weight: 900;
@@ -79,25 +93,25 @@ a {
 .profilePic img {
     width: 250px;
     border-radius: 8%;
-    
 }
 
 .info {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
 }
 
 .main-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     padding: 40px;
 }
 
 .daily-life {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
@@ -122,6 +136,12 @@ a {
     gap: 20px;
 }
 
+@media (max-width: 500px) {
+    .quote {
+        padding: 10px;
+    }
+}
+
 .signature {
     font-weight: bolder;
 }
@@ -144,7 +164,7 @@ a {
 
 .signup-text {
     color: white;
-    flex: 1;
+
     font-size: 20px;
 }
 
