@@ -13,7 +13,7 @@ body {
 }
 @media (max-width: 700px) {
     .page {
-        zoom: 50%;
+        zoom: 55%;
     }
 }
 
@@ -54,7 +54,7 @@ a {
 
 }
 
-.lowerHeader {
+.intro {
 
     background-color: #1F2937;
     color: white;
@@ -76,7 +76,7 @@ a {
     color: #E5E7Eb;
 }
 
-.lowerHeader button {
+.intro button {
     color: white;
     background-color: #02f5bd;
     font-weight: 900;
@@ -87,7 +87,7 @@ a {
 
 }
 
-.header button:hover {
+.intro button:hover {
     background-color: red;
 }
 .profilePic img {
@@ -95,7 +95,7 @@ a {
     border-radius: 8%;
 }
 
-.info {
+h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -123,6 +123,11 @@ a {
 }
 
 
+
+.life-text {
+    color: #555;
+    text-align: center;
+}
 .quote {
     background-color: #E5E7EB;
     display: flex;
